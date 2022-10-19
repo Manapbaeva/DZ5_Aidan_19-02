@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    background: #9199b2;
+    overflow: auto;
+}
+h1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+ul {
+    text-align: left;
+    font-size: 2rem;
+    list-style: circle;
+}
+li:hover {
+    color: red;
+    margin: 4%;
+    transition: 1.5s ease;
+    cursor: pointer;
+}
+.row {
+    justify-content: center;
+}
+.form-group {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+}
